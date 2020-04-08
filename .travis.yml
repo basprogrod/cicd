@@ -7,3 +7,8 @@ node_js:
 branches:
   only:
     - master
+deploy:
+  provider: heroku
+  app: 'mycik'
+  api_key:
+    secure: 'c62ca924-5e4b-4e95-a07f-c027b0b6ec4e'
